@@ -1,0 +1,27 @@
+.container__footer{
+    background: var(--background-footer);
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: center;
+}
+
+.secao_nome{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.footer__redes_sociais{
+    border-left: 1px solid var(--cor-menu);
+    padding-left: 1em;
+}
+
+.texto__footer__redes_sociais{
+    font-weight: 400;
+    font-size: 15px;
+    padding: 1em 0;
+}
+
+.container__imagem-footer{
+    margin: 0.3em;
+}

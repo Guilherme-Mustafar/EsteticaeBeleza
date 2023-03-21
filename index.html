@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <title>Centro Estetico</title>
+</head>
+<body>
+    <header class="container__header">
+        <nav class="container__nav">
+            <img src="imgs/LogoEstetica.png" class="logo__cabecalho" alt="">
+            <div class="menu__direito">
+                <a href="#" class="menu__link">
+                    <img src="imgs/Orçamento.svg" class="container__imagem" alt="">
+                </a>
+                <a href="#" class="menu__link">
+                    <img src="imgs/Favoritos.svg" class="container__imagem" alt="">
+                </a>
+                <a href="#" class="menu__link">
+                    <img src="imgs/FaleConosco.svg" class="container__imagem" alt="">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <img src="imgs/banner.jpg" class="container__banner" alt="">
+    </section>
+
+    <section class="container__secao">
+
+        <div class="container__carrossel">
+            <h1 class="titulo__procedimentos">Procedimentos</h1>
+            <div class="swiper">
+                
+              <!-- Additional required wrapper -->
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+        
+                    <img src="imgs/Criolipolise.jpg" alt="Livro sobre ApacheKafka">
+                    <p>Criolipolise</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="imgs/PowerShape.jpg" alt="Livro sobre Liderança">
+                    <p>Power Shape</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="imgs/HidroRelax.jpg" alt="Livro sobre Javascript">
+                    <p>Hidro Relax</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="imgs/LimpezaDePele.jpg" alt="Livro sobre Portugol">
+                    <p>Limpeza de Pele</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="imgs/DrenagemFacialManual.jpg" alt="Livro sobre Guia Front-End">
+                    <p>Drenagem Facial</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="imgs/DrenagemLinfatica.jpg" alt="Livro sobre Acessibilidade">
+                    <p>Drenagem Linfatica</p>
+                </div>
+                ...
+              </div>
+              
+      
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+    </section>
+
+    <section class="container__banner__segundo">
+        <h2 class="titulo__banner__segundo">Procedimento em destaque</h2>
+        <img src="imgs/Banner limpeza de pele orgânico verde.png" alt="">
+    </section>
+
+    <section class="contato">
+        
+        <div class="container_textos_contato">
+            <h2 class="titulo__contato">Fique por dentro das novidades</h2>
+            <p class="texto__contato">Atualizações sobre procedimentos novos</p>
+            <input type="search" class="contato__email" placeholder="E-mail">
+            <input type="search" class="contato__telefone" placeholder="Telefone">
+        </div>
+    </section>
+  
+    <footer class="container__footer">
+        <div class="secao_nome">
+            <p>GRUPO ESTETICO</p>
+        </div>
+        <div class="footer__redes_sociais">
+            <p class="texto__footer__redes_sociais">Nossas redes sociais:</p>
+            <img src="imgs/Instagram.svg" class="container__imagem-footer" alt="Imagem Instagram">
+            <img src="imgs/TikTok.svg" class="container__imagem-footer" alt="Imagem TikTok">
+            <img src="imgs/LinkedIN.svg" class="container__imagem-footer" alt="Imagem LinkedIN">
+            <img src="imgs/WhatsApp.svg" class="container__imagem-footer" alt="Imagem WhatsApp">
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+        },
+      });
+    </script>
+    
+    
+</body>
+</html>

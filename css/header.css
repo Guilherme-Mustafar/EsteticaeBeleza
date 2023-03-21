@@ -1,0 +1,27 @@
+.container__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1em;
+}
+
+
+.container__header{
+    background: var(--cor-menu);
+}
+
+.menu_header{
+    width: 100%;
+    display: inline-block;
+}
+
+.container__imagem{
+    padding: 1em;
+    width: 7vw;
+}
+
+.logo__cabecalho{
+    width: 20%;
+}
+
+

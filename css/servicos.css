@@ -1,0 +1,88 @@
+/* .container__secao{
+    margin: 3em;
+}
+
+.servicos__oferecidos{
+    font-weight: 700;
+    color: var(--cor-menu);
+    font-size: 5vh;
+    margin: 1em auto;
+}
+
+.lista__servicos{  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container__servicos{
+    border: 1px solid var(--cor-menu);
+    margin: 1em;
+    padding: 2em;
+    text-align: center;
+}
+
+.imagem__servicos{
+    border: 1px solid var(--cor-menu);
+}
+
+.nome__servico{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.preco__servico{
+    padding: 0.5em;
+    font-size: 20px;
+}
+
+.container__botao{
+    border: 2px solid #000000;
+    padding: 0.2em 2em;
+}
+
+.container__botao:hover{
+    background: var(--cor-menu);
+    color: #ffffff;
+} */
+
+.swiper{
+    margin: 2em;
+    display: flex;
+}
+
+.titulo__procedimentos{
+    margin: 1em;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--background-footer);
+}
+
+.swiper-slide{
+    padding: 0 0 2em 0;
+}
+
+.swiper-slide p{
+    text-align: center;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-pagination{
+    position: initial;
+    padding: 0.5em 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+.container__banner{
+    width: 100%;
+}
+
+.container__banner__segundo{
+    width: 100vw;
+    border-top: 1px solid var(--background-footer);
+    margin: 1em 0;
+}
+
+.titulo__banner__segundo{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 1em;
+    color: var(--background-footer);
+}

@@ -1,0 +1,21 @@
+@import url("header.css");
+@import url("servicos.css");
+@import url("footer.css");
+@import url("banner.css");
+@import url("contato.css");
+
+
+:root{
+    --Fonte-Principal:"Poppins";
+    --cor-de-fundo: #e5eef1;
+    --cor-pricipal: #ffffff;
+    --laranja: #837000;
+    --background-footer: #ee04d7;
+    --cor-transformacao: #4d0238;
+    --cor-menu: #be216b;
+}
+
+body{
+    font-family: var(--Fonte-Principal);
+    background: var(--cor-de-fundo);
+}
